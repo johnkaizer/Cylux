@@ -33,7 +33,7 @@
         cursor: pointer;
       }
   </style>
-<div class="d-flex align-items-center justify-content-center h-100">
+<div class="d-flex align-items-center ">
   <!-- /.login-logo -->
   <div class="d-flex h-100 justify-content-center align-items-center col-lg-5">
       <center><img src="<?= validate_image($_settings->info('logo')) ?>" alt="System Logo" class="img-thumbnail rounded-circle" id="logo-img"></center>
@@ -70,20 +70,20 @@
                   <small class="ml-3">Gender</small>
             </div>
             <div class="form-group col-md-6">
-                <input type="text" name="contact" id="contact" placeholder="Enter Contact #" class="form-control form-control-sm form-control-border" required>
-                <small class="ml-3">Contact #</small>
+                <input type="text" name="contact" id="contact" placeholder="Enter Contact e.g O7838383802" class="form-control form-control-sm form-control-border" required>
+                <small class="ml-3">Contact (Phone Number)</small>
             </div>
           </div>
           <div class="row">
             <div class="form-group col-md-12">
               <small class="ml-3">Address</small>
-              <textarea name="address" id="address" rows="3" class="form-control form-control-sm rounded-0" placeholder="Block 6 Lot 23, Here Subd., There City, Anywhere, 2306"></textarea>
+              <textarea name="address" id="address" rows="3" class="form-control form-control-sm rounded-0" placeholder="Umoja phase II, Pamoja Luxuxry Apartments"></textarea>
             </div>
           </div>
           <hr>
           <div class="row">
             <div class="form-group col-md-6">
-                <input type="email" name="email" id="email" placeholder="jsmith@sample.com" class="form-control form-control-sm form-control-border" required>
+                <input type="email" name="email" id="email" placeholder="cylux@gmail.com" class="form-control form-control-sm form-control-border" required>
                 <small class="ml-3">Email</small>
             </div>
           </div>

@@ -15,8 +15,8 @@
           background-size:cover;
       }
       #logo-img{
-          width:15em;
-          height:15em;
+          width:19em;
+          height:19em;
           object-fit:scale-down;
           object-position:center center;
       }
